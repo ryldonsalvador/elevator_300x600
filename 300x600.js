@@ -321,11 +321,11 @@ if (reversed == null) { reversed = false; }
 
 	// image1
 	this.instance = new lib.Symbol2();
-	this.instance.setTransform(99,202.3,1.1659,1.1656,0,0,0,93.5,202.7);
+	this.instance.setTransform(95.1,212.45,1.4669,1.4666,0,0,0,93.5,202.7);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(30).to({_off:false},0).to({alpha:1},5).wait(8).to({x:-174.95},31).to({_off:true},1).wait(35));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(30).to({_off:false},0).to({alpha:1},5).wait(8).to({regX:93.4,scaleX:1.4668,scaleY:1.4664,x:94.95,y:212.4},0).to({regX:93.5,scaleX:1.4669,scaleY:1.4666,x:-204.85,y:212.45},31).to({_off:true},1).wait(35));
 
 	// cta
 	this.cta = new lib.Symbol8();
@@ -334,11 +334,11 @@ if (reversed == null) { reversed = false; }
 	this.cta.alpha = 0;
 	this.cta._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.cta).wait(85).to({_off:false},0).to({regY:23.4,scaleX:0.9067,scaleY:0.9067,x:92.05,y:450.4,alpha:1},10).wait(15));
+	this.timeline.addTween(cjs.Tween.get(this.cta).wait(85).to({_off:false},0).to({regY:23.4,scaleX:0.9067,scaleY:0.9067,x:92.05,y:460.4,alpha:1},10).wait(15));
 
 	// Layer_8
 	this.instance_1 = new lib.Symbol9();
-	this.instance_1.setTransform(90.5,381.5,1,1,0,0,0,85.5,25.5);
+	this.instance_1.setTransform(90.5,400.5,1,1,0,0,0,85.5,25.5);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
@@ -346,22 +346,22 @@ if (reversed == null) { reversed = false; }
 
 	// image2
 	this.instance_2 = new lib.Symbol4();
-	this.instance_2.setTransform(128.8,193.5,1.1647,1.1648,0,0,0,126,203);
+	this.instance_2.setTransform(128.8,193.5,1.4208,1.4209,0,0,0,126,203);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(43).to({_off:false},0).wait(32).to({regX:124.9,regY:202.1,scaleX:0.8729,scaleY:0.8727,x:113.4,y:175.15},14).wait(21));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(43).to({_off:false},0).wait(32).to({regX:125.9,scaleY:1.421,x:128.7},0).to({regX:125,regY:202,scaleX:1.0215,scaleY:1.0212,x:123.3,y:175.2},14).wait(21));
 
 	// logo
 	this.instance_3 = new lib.Symbol5();
 	this.instance_3.setTransform(94.5,196.2,1,1,0,0,0,94.5,37.2);
 	this.instance_3.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({alpha:1},4).wait(31).to({alpha:0},0).wait(40).to({y:-46.8,alpha:1},14).wait(21));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).to({alpha:1},4).wait(31).to({alpha:0},0).wait(40).to({regY:37.1,scaleX:0.8387,scaleY:0.8387,y:-59.9,alpha:1},14).wait(21));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-283.9,-91.3,559.5,580);
+p.nominalBounds = new cjs.Rectangle(-342,-94.9,649.9,605.1);
 
 
 // stage content:
@@ -395,11 +395,11 @@ lib.properties = {
 	color: "#00A490",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/cta.png?1602815284930", id:"cta"},
-		{src:"images/image11.png?1602815284930", id:"image11"},
-		{src:"images/image2.png?1602815284930", id:"image2"},
-		{src:"images/logo.png?1602815284930", id:"logo"},
-		{src:"images/text1.png?1602815284930", id:"text1"}
+		{src:"images/cta.png?1603086630143", id:"cta"},
+		{src:"images/image11.png?1603086630143", id:"image11"},
+		{src:"images/image2.png?1603086630143", id:"image2"},
+		{src:"images/logo.png?1603086630143", id:"logo"},
+		{src:"images/text1.png?1603086630143", id:"text1"}
 	],
 	preloads: []
 };
